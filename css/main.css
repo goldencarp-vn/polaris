@@ -6447,6 +6447,12 @@ img {
   .main-title {
     font-size: 3.5rem; } }
 
+form .response {
+  color: #fff; }
+
+#mc_embed_signup_scroll {
+  color: #fff; }
+
 .foot-bg {
   background-image: url(../images/background/foot-bg.png);
   background-repeat: no-repeat;

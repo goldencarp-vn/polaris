@@ -19,4 +19,13 @@ $(document).ready(function () {
       }
     });
   });
+
+  $('form.section-form').on('submit', function (e) {
+    e.preventDefault();
+    var data = $(this).serializeArray().reduce(function (a, e) {
+      a[e.name] = e.value;
+      return a;
+    }, {});
+    console.log(data);
+  })
 });
