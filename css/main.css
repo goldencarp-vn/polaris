@@ -6352,7 +6352,8 @@ html {
   justify-content: center; }
   .cta-btn:hover {
     text-decoration: none;
-    color: #000; }
+    color: #000;
+    background-color: #eee; }
 
 .img {
   overflow: hidden; }
